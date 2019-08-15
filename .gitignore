@@ -3,7 +3,11 @@
 
 # Except
 !.gitignore
-!.git/
-!data/
-!notes/
+!.git
+!.git/*
 
+!scripts
+!scripts/*
+
+!notes
+!notes/*
