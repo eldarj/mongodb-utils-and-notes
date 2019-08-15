@@ -1,0 +1,2 @@
+Starting mongodb replica-cluster 
+mongod.exe.lnk executed on port 27017(Master), 2018(Slave), 27019(Arbiter) - Replica name: replicaset0 

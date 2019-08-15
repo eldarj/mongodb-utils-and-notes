@@ -1,0 +1,35 @@
+Notes:
+- Single master - single slave is deprecated sine 3.4 iirc
+
+- Replica sets (of at least 3 nodes) are the prefered way
+
+- We can run a e.g. single master, single slave, single arbiter node
+
+- Replica sets on a single machine are useless?
+-- https://stackoverflow.com/questions/42644517/mongodb-replica-set-on-single-machine
+
+- Mongodb Java
+-- http://www.tutorialspoint.com/mongodb/mongodb_java.htm
+
+- Mongodb deployment
+-- http://www.tutorialspoint.com/mongodb/mongodb_deployment.htm
+
+- Mongodb backup
+-- mongodump
+-- http://www.tutorialspoint.com/mongodb/mongodb_create_backup.htm
+
+- Mongodb sharding
+-- http://www.tutorialspoint.com/mongodb/mongodb_sharding.htm
+
+- Mongodb replication
+-- http://www.tutorialspoint.com/mongodb/mongodb_replication.htm
+
+Questions:
+- Are we running nodes on different servers?
+
+- We are not using a replset if we run it on the same server...
+
+- Consider single back ups with 'mongodump' (for small data sets) instead of running replica-sets
+-- https://docs.mongodb.com/manual/core/backups/#back-up-with-mongodump
+-- this should be fine as long as we don't have complex data, and no unique indexes
+
